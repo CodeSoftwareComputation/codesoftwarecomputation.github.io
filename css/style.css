@@ -3,9 +3,6 @@
     padding-right:0;
 }
 
-p {
-    font-size:1em;
-}
 .panel-heading a:after {
     font-family:'Glyphicons Halflings';
     content:"\e114";
@@ -14,4 +11,7 @@ p {
 }
 .panel-heading a.collapsed:after {
     content:"\e080";
+}
+p {
+    font-size:1.1em;
 }
