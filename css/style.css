@@ -19,3 +19,7 @@ p {
 .text-important {
     color:red;
 }
+
+.readable {
+max-width:50em;
+}
