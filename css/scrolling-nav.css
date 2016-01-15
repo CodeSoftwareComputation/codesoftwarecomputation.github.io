@@ -60,6 +60,7 @@ of those sections to manage the look and feel of the site. */
     margin-bottom:5vh;
     text-align: center;
     background: #fff;
+    min-height:70%;
 }
 .services-section {
     height: 100%;
@@ -67,7 +68,9 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #fff;
 }
-
+.dark-section {
+    background: #eee;
+}
 .contact-section {
     height: 100%;
     margin-top:10px;
