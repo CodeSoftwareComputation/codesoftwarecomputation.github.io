@@ -12,9 +12,8 @@
 .panel-heading button.collapsed:after {
     content:"\e080";
 }
-
 .panel-heading {
-    padding:0;
+    padding:1em;
 }
 p {
     font-size:1.1em;
