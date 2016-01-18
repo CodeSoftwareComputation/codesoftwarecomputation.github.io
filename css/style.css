@@ -26,7 +26,11 @@ p {
 .readable {
     max-width:50em;
 }
-
+.close-list{
+}
+.center {
+    vertical-align:middle;
+}
 button {
     margin      : 0;
     padding     : 0;
@@ -35,4 +39,15 @@ button {
     font-family : inherit;
     font-size   : 1em;
     cursor      : pointer;
+}
+
+.file {
+    background-color:#bbb;
+    font-family: courier;
+}
+
+.code {
+    background-color:111;
+    font-family: courier;
+    color:white;
 }
