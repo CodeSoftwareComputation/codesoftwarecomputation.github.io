@@ -476,34 +476,30 @@
                 I expect students to work together on the programming assignments
                 in this course. However, there are some restrictions
                 that I feel are reasonable on inter-student collaboration.
-                For any programming assignment, students may opt to use
-                pair-programming, as described below. Your programming partner
-                is the only person with whom you are permitted to share code.
-                If you choose not to pair-program, you may neither share your
-                code nor look at the code of others in the course.
+                Students should never look at other students' programs, or
+                allow other students to see their own.
+                When students collaborate, I prefer that they do so by
+                constructing examples together, and then applying those examples
+                to the problem individually.
                 </p>
-                <h2>Pair Programming</h2>
-                <p>
-                Pair Programming is a technique for programming in which
-                two programmers collaborate on a program together on
-                one machine. That is, the two programmers share a screen
-                and a keyboard, switching control at their discretion.
-                There are many ways to divide labor in pair programming, but
-                the way I recommend is the Driver-Navigator paradigm. In
-                this paradigm, one programmer uses the keyboard and
-                writes code, while the other observes each line as it
-                is written. The two should maintain a constant dialogue,
-                with the driver explaining what he or she is doing, while the
-                navigator comments on the overall structure and brings up
-                mistakes and errors. If you choose to pair-program, you must
-                not ever work on the code without your partner. Further,
-                pair-programming does not mean dividing work. No code should
-                ever be written without your partner directly observing.
+                <p>For example, imagine an assignment that asks for a program
+                that outputs every even number between 1 and 10000.
+                A solution for this problem looks like this:
                 </p>
+                <div class="code">
+                    <pre>
+                    for i in range(10001):
+                        if (i % 2) == 0:
+                            print i
+                    </pre>
+                </div>
                 <p>
-                When it comes time to submit your work, you and your partner
-                will submit one copy of the assignment together, noting who makes up
-                your pair.
+                Sharing this code or writing it collaboratively
+                would be a violation of the collaboration policy, but
+                students collaborating on a similar program, for
+                instance one that prints every number from 1 to 10000, is fine.
+                Any code written collaboratively should be submitted
+                with the assignment.
                 </p>
             </div>
         </section>
@@ -554,7 +550,7 @@
                         <h1>Assignments</h1>
                         <div class="col-md-4">
                             <a href="assignment1.html" class="assignment list-group-item">
-                                <h3>Assignment 1: Getting Started</h3>
+                                <h3>Getting Started</h3>
                                 <p>
                                 Download, install, and use some of the software for this class. 
                                 </p>
@@ -568,7 +564,7 @@
                         </div>
                         <div class="col-md-4">
                             <a href="assignment2.html" class="assignment list-group-item">
-                                <h3>Assignment 2: Your First Programs</h3>
+                                <h3>Your First Programs</h3>
                                 <p>
                                 Become more comfortable with Python by going through
                                 a set of challenging exercises.

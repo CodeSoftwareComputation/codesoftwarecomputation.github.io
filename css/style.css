@@ -47,7 +47,6 @@ button {
 }
 
 .code {
-    background-color:111;
+    text-align:left;
     font-family: courier;
-    color:white;
 }
